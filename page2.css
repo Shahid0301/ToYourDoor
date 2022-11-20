@@ -147,3 +147,8 @@ div.stnav{
         width: 90%;         
     }
 }
+@media screen and (max-width: 767px) and (min-width: 451px){
+    .card{
+        height: 25vh;
+    }
+}

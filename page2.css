@@ -3,18 +3,18 @@
 }
 
 /* MENU */
-.container hr{
+.container1 hr{
     color: #43ba10;
     height: 3px;
 }
-.container a{
+.container1 a{
     color: #43ba10;
 }
-.container ul a:hover{
+.container1 ul a:hover{
     color: white;
     background-color: #43ba10;
 }
-.container a:hover{
+.container1 a:hover{
     color: #43ba10;
 }
 
@@ -134,7 +134,7 @@ div.stnav{
         width: 100%;
     }
     .card{
-        width: 100%;
+        width: 80%;
         margin-left: 0;
     }
     .cards{

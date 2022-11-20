@@ -52,6 +52,7 @@ div.stnav{
 }
 .quickmeal{
     text-align: center;
+    padding-left:6px;
 }
 .quickmeal h1{
     color: #43ba10;
@@ -122,4 +123,27 @@ div.stnav{
 .cards{
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 320px){
+    .c{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        margin-left: 0;
+    }
+    .cards{
+        margin-left: 12px
+    }
+    .logo{
+        width: 50%;
+    }
+    .lower_section{
+        width: 90%;         
+    }
 }

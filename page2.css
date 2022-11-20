@@ -125,7 +125,7 @@ div.stnav{
     align-items: center;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 450px){
     .c{
         display: flex;
         flex-direction: column;

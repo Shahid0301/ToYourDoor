@@ -76,9 +76,10 @@ h1{
 }
 @media screen and (max-width:320px){
     .side-image{
-        width: 400px;
-        position: absolute;
+        width: 300px;
+        position: relative;
         left: 15%;
+        bottom: 65px;
 
     }
     .text{
@@ -88,11 +89,15 @@ h1{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        top:50%;
+        top:40%;
         left: 70px;
     }
     .logo{
         display: inline;
+        font-size: 15px;
+    }
+    .delivery{
+        width: 60px;
     }
     button{
         margin: 0 2px;

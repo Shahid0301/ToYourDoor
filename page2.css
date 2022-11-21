@@ -59,6 +59,14 @@ nav{
     border-top: 0;
     font-family:'Amarante';
 }
+.gr a{
+    border-radius: 10px;
+    text-decoration: none;
+}
+.gr a:hover{
+    background-color: #D6E4E5;
+    color: #497174;
+}
 
 /* CARDS AND MENU */
 
@@ -71,16 +79,16 @@ nav{
     width: 10vw;
 }
 .btn{
-    background-color: #497174   ;
+    background-color: #497174;
     color: white;
-    margin:1vw;
-    border: #EFF5F5; 
+    margin:1vw; 
+    border: #EFF5F5 2px solid;
 }
 
 .btn:hover{
     background-color: white;
     color: #EFF5F5;
-    border: #EFF5F5 2px solid;
+    border: #497174 solid 2px;
     
 
 } 

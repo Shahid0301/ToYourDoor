@@ -4,6 +4,11 @@
 }
 
 /* MENU */
+
+.favicon{
+    width: 3vw;
+    float: left;
+}
 .container1{
     margin-top: 10px;
 }
@@ -67,9 +72,164 @@ nav{
     background-color: #D6E4E5;
     color: #497174;
 }
+/* nav{
+    display: block;
+    padding: 20px ;
+    position: fixed;
+    margin:0vh 10vw;
+    background-color: white;
+    width: 80%;
+    line-height: 2vw;
+    border:#EFF5F5 1px solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    
+} */
+/* .navtext{
+    color: #EFF5F5;
+    display: inline;
+    border: solid #EFF5F5 2px;
+    border-left: 0px;
+    border-right: 0px;
+    line-height: 2vw;
 
-/* CARDS AND MENU */
+} */
+/* .logo{
+    
+    display: inline;
+    line-height: 2vw;
+}
 
+.menu li:hover{
+    background-color: #EFF5F5;
+    color: white;
+    padding: 10px 30px;
+    transition:all 0.5s ease-out;
+} */
+
+/* nav ul{
+    display: inline-block;
+    
+} */
+/* .menu li{
+    transition-duration:0.5s;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline;
+}
+.menu{
+    display: inline;
+    margin-left: 50%;
+    line-height: 2vw;
+}
+a.menu1:hover{
+    color: white;
+}
+.menu1{
+    text-decoration: none;
+    color: #EFF5F5;
+} */
+
+/* .quickMeal{
+    text-align: center;
+    border-radius: 10px;
+    border: none 2px solid;
+    width: 30%;
+    height: 40vh;
+    display: inline-block;
+    box-shadow: none 5px 20px 50px;
+    margin-top: 10vw;
+}
+
+.quickMeal ul{
+display: inline;
+}
+
+.quickMeal li{
+    list-style: none;
+    margin:5px 40px;
+    padding: 10px 0px;
+    color:white;
+    background-color: #EFF5F5;
+    border:solid 2px white;
+    transition: all 0.5s ease-out;
+}
+.quickMeal li:hover{
+    list-style: none;
+    margin:5px 40px;
+    padding: 10px 0px;
+    color:#EFF5F5;
+    background-color: white;
+    border: 2px #EFF5F5 solid;
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+    transition-timing-function: linear;
+    
+    
+}
+.quickMeal h1{
+    color: #EFF5F5;
+}
+.sect1{
+    display: flex;
+    margin: 10vh 10vw;
+    
+}
+.shops{
+    display: inline;
+    background-color:;
+    border-radius: 10px;
+    margin: 0vw 3vw;
+    width:70%;
+ 
+}
+.div1{
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 10px; 
+
+}
+.card{
+    display: flex;
+    width: 18vw;
+    height: 40vh;
+    border:2px white solid;
+    background-color: white;
+    margin:10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: #EFF5F5 10px 20px 50px;
+    transition: all 0.5s ease-out;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+}
+.logo{
+    width: 10vw;
+    height: 10vw;
+}
+.btn{
+    background-color: #EFF5F5;
+    color: white;
+    margin:1vw;
+    border: #EFF5F5;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: #EFF5F5;
+    border: #EFF5F5 2px solid;
+    
+
+} */
+
+
+/* CARD AND MENU */
 .lower_section{
     margin-top: 30px;
     background-color: #EFF5F5;
@@ -78,16 +238,41 @@ nav{
 .logo{
     width: 10vw;
 }
+/* .quickmeal li{
+    list-style: none;
+    margin:5px 40px;
+    margin-right: 25px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color:white;
+    background-color: #EFF5F5;
+    border:solid 2px white;
+    transition: all 0.5s ease-out;
+}
+.quickmeal li:hover{
+    list-style: none;
+    margin:5px 40px;
+    padding: 10px 0px;
+    color:#EFF5F5;
+    background-color: white;
+    border: 2px #EFF5F5 solid;
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+    transition-timing-function: linear;  
+} */
+
+
+
 .btn{
-    background-color: #497174;
+    background-color: #497174   ;
     color: white;
-    margin:1vw; 
-    border: #EFF5F5 2px solid;
+    margin:1vw;
+    border: #EFF5F5 2px solid; 
 }
 
 .btn:hover{
-    background-color: white;
-    color: #EFF5F5;
+    background-color: #D6E4E5;
+    color: #497174;
     border: #497174 solid 2px;
     
 
@@ -119,23 +304,6 @@ nav{
     align-items: center;
     padding-top: 3vw;
 }
-
-
-#footer{
-    text-align: center;
-    padding: 6%;
-}
-
-.lasticons{
-    margin: 12px 12px;
-    padding-bottom: 6px;
-}  
-
-#footer_para{
-    font-size: larger;
-}
-
-
 @media screen and (max-width: 450px){
     .c{
         display: flex;
@@ -149,6 +317,9 @@ nav{
     }
     .lower_section{
         width: 90%;         
+    }
+    .favicon{
+        width: 10vw;
     }
 }
 @media screen and (max-width: 767px) and (min-width: 451px){

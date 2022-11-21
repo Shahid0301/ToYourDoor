@@ -74,7 +74,7 @@ h1{
     top: 20px;
     left: 10px;
 }
-@media screen and (max-width:479px){
+@media screen and (max-width:320px){
     .side-image{
         width: 400px;
         position: absolute;
@@ -82,25 +82,25 @@ h1{
 
     }
     .text{
-        font-size: 30px;
+        font-size: 20px;
         position: absolute;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         top:50%;
-        left: 50px;
+        left: 70px;
     }
     .logo{
         display: inline;
     }
     button{
-        margin: 0 10px;
-        padding: 15px 50px;
+        margin: 0 2px;
+        padding: 5px 30px;
         
     }
     .sup{
-        padding: 15px 46px;
+        padding: 5px 26px;
     }
   
    

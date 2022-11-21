@@ -35,6 +35,7 @@
     color: #497174;
     font-size: larger;
     font-weight: bolder;
+    display: inline;
 }
 
 .text{
@@ -87,7 +88,7 @@ h1{
 
     }
     .text{
-        font-size: 28px;
+        font-size: 35px;
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -124,6 +125,17 @@ h1{
     .maintext{
         margin-right: 10%;
     }
-  
+    button:hover{
+        background-color: white;
+        color: #497174;
+        border-radius:50px ;
+        border: 1px solid #497174;
+        margin: 10px 20px;
+        padding: 10px 26px;
+
+    }
+    .sup{
+
+    }
    
 }

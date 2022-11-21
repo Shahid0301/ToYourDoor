@@ -304,6 +304,21 @@ display: inline;
     align-items: center;
     padding-top: 3vw;
 }
+
+#footer{
+    text-align: center;
+    padding: 6%;
+}
+
+.lasticons{
+    margin: 12px 12px;
+    padding-bottom: 6px;
+}  
+
+#footer_para{
+    font-size: larger;
+}
+
 @media screen and (max-width: 450px){
     .c{
         display: flex;

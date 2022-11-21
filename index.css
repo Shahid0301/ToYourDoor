@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    padding: 0;
 }
 /* .image{
     float: right;
@@ -11,7 +12,12 @@
     width: 100vw;
     height: 90vh;
    background-size: cover;
-    background-image:url('./mainBack.png');
+    
+}
+.side-image{
+    display: inline;
+    float: right;
+
 }
 .img{
     width: 50px;
@@ -22,13 +28,13 @@
 }
 .logo{
     display: inline;
-    border: 8px solid #5EC426;
+    border: 8px solid #497174;
     border-left: 0px;
     border-right: 0px;
-    color: #5EC426;
+    color: #497174;
 }
 .spann{
-    color: #5EC426;
+    color: #497174;
     font-size: larger;
     font-weight: bolder;
 }
@@ -38,6 +44,7 @@ font-size: 50px;
 position: relative;
 top: 10vw;
 left: 2vw;
+display: inline;
 }
 .para{
     font-family:sans-serif;
@@ -46,17 +53,42 @@ left: 2vw;
 }
 button:hover{
     background-color: white;
-    color: #5EC426;
+    color: #497174;
     border-radius:50px ;
     padding: 20px 50px;
-    border: 1px solid #5EC426;
+    border: 1px solid #497174;
 }
 button{
     margin-left: 50px;
     margin-top: 2vw;
-    background-color: #5EC426;
+    background-color: #497174;
     color: white;
     border-radius:50px ;
     padding: 20px 50px;
     border: 1px solid white;
+}
+h1{
+    display: inline-block;
+}
+@media screen and (max-width:450px){
+    .side-image{
+        width: 400px;
+        position: absolute;
+        left: 15%;
+
+    }
+    .text{
+        font-size: 40px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+    }
+    .logo{
+        display: inline;
+    }
+  
+   
 }

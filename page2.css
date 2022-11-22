@@ -64,6 +64,18 @@ nav{
     border-top: 0;
     font-family:'Amarante';
 }
+
+.searchbar{
+    border-radius: 100px;
+    border:solid 1px #497174;
+}
+.searchbtn{
+    width: 10%;
+    border-radius: 10px;
+    background-color: #5f8b8e;
+    color: white;
+    border: none;
+}
 .gr a{
     border-radius: 10px;
     text-decoration: none;
@@ -304,6 +316,29 @@ display: inline;
     align-items: center;
     padding-top: 3vw;
 }
+
+#testimonials{
+    background: linear-gradient(to bottom,#5f8b8e,rgb(41, 37, 37));
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.dog2{
+    width: 12%;
+    border-radius: 100%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+}
+
 
 #footer{
     text-align: center;
